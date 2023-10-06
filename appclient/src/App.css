@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  opacity: 100%;
+    /* The image used */
+  background-image: url("http://localhost:5000/images/banner-bg.png");
+
+    /* Set a specific height */
+  min-height: 100vh;
+  
+    /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

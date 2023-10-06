@@ -1,0 +1,31 @@
+.container{
+    background-color: rgba(198, 57, 177, 0.295);
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{display: flex;
+    color: rgb(241, 223, 223);
+    align-items: center;
+    justify-content: space-between }
+ul{list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 20px;
+    margin-right: 50px;
+}
+.litems{
+    text-decoration: none;
+    color:rgb(50,69,95);
+}
+#logNav{
+    margin: 0.5vw;
+    opacity: 100%;
+    height: 100px;
+    width: auto;
+    border-radius: 10px;
+
+}
+
+

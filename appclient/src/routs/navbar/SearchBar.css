@@ -1,0 +1,39 @@
+.SearchBar{
+    border: 5px;
+    margin-top: 10px;
+    border-color: rgb(82, 11, 224);
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    line-height: 32px;
+    width: 50%;
+}
+#input{
+    height: 32px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    outline: none;
+
+}
+
+.SearchButton:hover{
+    background-color: rgb(142, 142, 194);
+    color: rgb(35, 32, 32);
+}
+
+.SearchButton{
+    height: 32px;
+    border: none;
+    color: rgba(229, 248, 251, 0.962);
+    background-color: rgb(144, 81, 203);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+
+.SearchButton:hover{
+background-color: rgb(142, 142, 194);
+color: rgb(35, 32, 32);
+}
